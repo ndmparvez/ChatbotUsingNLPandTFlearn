@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day" , "Hey"],
+         "responses": ["Hello, thanks for visiting Saanj Palace", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day, All through the day", "We are open anytime, every day"]
+        },
+        {"tag": "booking",
+         "patterns": ["What kind of suites do you offer?", "What kinds of rooms are available?", "What rooms are available?" ],
+         "responses": ["We have Executive King rooms(A/C and Non-A/C), Guest Rooms(A/C and Non-A/C), Premium Suite, Junior Suite, Terrace Suite, Penthouse, Villa ", " Executive King rooms(A/C and Non-A/C), Guest Rooms(A/C and Non-A/C), Premium Suite, Junior Suite, Terrace Suite, Penthouse, Villa are available right now "]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard, AMEX and UPI too", "We accept most major debit and credit cards and UPI"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day "]
+        },
+        {"tag": "rental",
+         "patterns": ["Can we book a Suite?", "I'd like to book a room", "How does this work?" ],
+         "responses": ["Are you looking to check in today or later this week?"]
+        },
+        {"tag": "Food",
+         "patterns": ["Is food services available?", "What kind of food services available?", "is vegetarian food available?", "What types of food do you offer?" ],
+         "responses": ["Yes, We offer food for various tastes, including Vegetarian, Sea food, Italian, Mexiacn, Indian and so "]
+        },
+        {"tag": "bar",
+         "patterns": ["Is bar facilated??", "Bar available?", "is there a pub??" ],
+         "responses": ["Yes it is available, we avail two types, The Elite(11am to 3 pm), The Sassy(8pm to 2 am)"]
+        },
+        {"tag": "today",
+         "patterns": ["today"],
+         "responses": ["For Bookings today please call +91 83007 88664", "Same-day Check-in please call +91 83007 88664"],
+         "context_set": "bookingday"
+        },
+        {"tag": "Later",
+         "patterns": ["later"],
+         "responses": ["For Bookings for forthcoming days please call +91 87540 54440", "To check in over later days, please call +91 87540 54440 or visit saanjpalace.com/bookings"],
+         "context_filter": "bookingday"
+        } 
+   ]
+}
