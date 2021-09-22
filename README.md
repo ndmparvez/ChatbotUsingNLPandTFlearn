@@ -1,7 +1,7 @@
 # ChatbotUsingNLPandTFlearn
-Chatbot that Understands the Context of Sentence and Respond accordingly
-AI ChatBot using Python Tensorflow and Natural Language Processing (NLP) along side TFLearn
-This Chatbot is exclusively based for a Hotel Booking and info site
+Chatbot that Understands the Context of Sentence and Respond accordingly.
+AI ChatBot using Python Tensorflow and Natural Language Processing (NLP) along side TFLearn.
+This Chatbot is exclusively based for a Hotel Booking and info site.
 
 Things that we are going to do in this Project:
 
